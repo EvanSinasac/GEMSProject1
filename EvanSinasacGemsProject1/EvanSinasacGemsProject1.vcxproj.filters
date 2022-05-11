@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Provided">
+      <UniqueIdentifier>{1570a933-ea8f-42fd-9ed8-6cdd21c3f8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Containers">
+      <UniqueIdentifier>{f816d8c9-2d71-4db9-b182-10925e8559b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Containers\SmartArray">
+      <UniqueIdentifier>{5dc22a4b-4df1-47da-8e54-b7e79918925f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Containers\Pair">
+      <UniqueIdentifier>{8cb650c4-114b-461b-adcc-35de44ab5904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Containers\Linked List">
+      <UniqueIdentifier>{82892fcc-8415-41c8-8471-1440d1017792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Custom Containers\Map">
+      <UniqueIdentifier>{87c5fbd4-9c84-4264-bfc2-d83ad57d4149}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cMusicGenerator.h">
+      <Filter>Provided</Filter>
+    </ClInclude>
+    <ClInclude Include="cPerson.h">
+      <Filter>Provided</Filter>
+    </ClInclude>
+    <ClInclude Include="cPersonGenerator.h">
+      <Filter>Provided</Filter>
+    </ClInclude>
+    <ClInclude Include="cSnotify.h">
+      <Filter>Provided</Filter>
+    </ClInclude>
+    <ClInclude Include="cSong.h">
+      <Filter>Provided</Filter>
+    </ClInclude>
+    <ClInclude Include="cSmartArray_Template.h">
+      <Filter>Custom Containers\SmartArray</Filter>
+    </ClInclude>
+    <ClInclude Include="cBabyNames.h">
+      <Filter>Custom Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="cSurnames.h">
+      <Filter>Custom Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="cStreetNames.h">
+      <Filter>Custom Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="cPair_Templated.h">
+      <Filter>Custom Containers\Pair</Filter>
+    </ClInclude>
+    <ClInclude Include="cLinkedList_Template.h">
+      <Filter>Custom Containers\Linked List</Filter>
+    </ClInclude>
+    <ClInclude Include="cMap_List.h">
+      <Filter>Custom Containers\Map</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cPerson.cpp">
+      <Filter>Provided</Filter>
+    </ClCompile>
+    <ClCompile Include="cPersonGenerator.cpp">
+      <Filter>Provided</Filter>
+    </ClCompile>
+    <ClCompile Include="cSnotify.cpp">
+      <Filter>Provided</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cMusicGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cMap_List.cpp">
+      <Filter>Custom Containers\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cSong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSorts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearches.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionSorts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeapSorts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertionSorts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
